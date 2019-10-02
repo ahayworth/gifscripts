@@ -3,7 +3,7 @@
 A small collection of hand-crafted bash scripts that feed my animated GIF addiction:
 
 * [webp2gif](#webp2gif) Script to convert animated webp files to looping, animated gifs.  Will try to optimize filesize via [gifsicle](https://www.lcdf.org/gifsicle/) if it's installed.
-* [sidebyside.sh](#sidebyside) script that takes a large GIF, and splits it into multiple gifs that you can display side by side in slack.
+* [sidebyside.sh](#sidebyside.sh) script that takes a large GIF, and splits it into multiple gifs that you can display side by side in slack.
 
 
 
@@ -33,9 +33,9 @@ Example:
 ### credits
 Inspiration from [this stack exchange post](https://unix.stackexchange.com/questions/419761/webp-animation-to-gif-animation-cli).
 
-## sidebyside
+## sidebyside.sh
 
-Splits a lengthy gif into a variable number of segments, then resizes each to a max of 128x1278 or a user-provided NxN size, whichever is smaller.
+Splits a lengthy gif into a variable number of segments, then resizes each to a max of 128x128 or a user-provided NxN size, whichever is smaller.
 
 Actual dimensions may be smaller, and vary depending on the actual dimensions
 of the input gif.
